@@ -53,3 +53,21 @@
   }
 }
 ```
+
+## 响应式的起源
+
+Ethan Marcotte. 2010. 《responsive-web-design》
+
+John Allsopp. 2000. 《A Dao of Web Design》
+
+到了2010年，媒体查询得到了更广泛的支持，再加上移动设备更加流行，Ethan将这些技术结合起来，给了一个新的术语：响应式web设计。
+
+### css之外的响应式
+
+JS. hamburger menu.
+
+pattern: 先加载一个核心资源，根据设备再加载更多。响应式设计本质上就是**渐进增强**。
+
+## 浏览器视口（viewport）的原理
+
+css像素不同于物理像素。于物理像素的比例，受到硬件、操作系统、浏览器、用户缩放等因素影响。
