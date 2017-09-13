@@ -42,3 +42,14 @@
   }
 }
 ```
+
+```css
+@media only screen and (min-width: 70em) {
+ .subcategory-header {
+   width: 20%;
+  }
+  .subcategory-content {
+    width: 80%;
+  }
+}
+```
