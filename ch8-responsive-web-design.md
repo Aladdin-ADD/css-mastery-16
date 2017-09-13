@@ -1,4 +1,4 @@
-#响应式web设计
+# 响应式web设计
 
 + 响应式web设计的历史和原因
 + 视口（viewport）、媒体类型（media types）、媒体查询（media queries）的原理
@@ -25,4 +25,20 @@
    }
  }
  ```
- 
+
+断点。
+
+### 更多断点
+
+继续增加浏览器窗口的大小，就会有更大的空间 -- 理应得到更高效的利用。大约800px（50em），
+
+```css
+@media only screen and (min-width: 50em) {
+ .row-quartet > * {
+   width: 25%; 
+  }
+  .subcategory-featured {
+    width: 50%;
+  }
+}
+```
