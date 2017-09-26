@@ -71,3 +71,10 @@ pattern: 先加载一个核心资源，根据设备再加载更多。响应式�
 ## 浏览器视口（viewport）的原理
 
 css像素不同于物理像素，与物理像素的比例，受到硬件、操作系统、浏览器、用户缩放等因素影响。
+设备像素比dpr: 1~4。
+
+### viewport定义的细微差别
+
++默认视口、理想视口（Default and Ideal Viewports）
++可见视口、布局视口（Visual and Layout Viewports）
+ ￼￼￼￼￼￼
