@@ -87,3 +87,23 @@ css像素不同于物理像素，与物理像素的比例，受到硬件、操�
 }
 </style>
 ```
+
+### 设备类型和媒体查询
+
+媒体类型：
+
++ HTML4.0.1 & CSS2.1
++ `screen | print | tv ...`
+
+```html
+<link rel="stylesheet" href="main.css" media="screen, print">
+```
+
+```css
+@media print {
+  /* selectors and rule sets for print media go in here */
+  .smallprint {
+    font-size: 11pt;
+  }
+}
+```
