@@ -137,3 +137,11 @@ css像素不同于物理像素，与物理像素的比例，受到硬件、操�
 ```
 
 ## 浏览器支持
+
++ IE8 respond.js
++ conditional comments.
+```html
+<!--[if (lt IE 9) & (!IEMobile)]>
+<link rel="stylesheet" href="oldIE.css" media="all">
+<![endif]-->
+```
