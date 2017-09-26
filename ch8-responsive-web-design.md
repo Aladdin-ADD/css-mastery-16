@@ -125,4 +125,6 @@ css像素不同于物理像素，与物理像素的比例，受到硬件、操�
 @media not screen {
   /* non-screen styles go here. */
 }
+
+@media (min-width: 30em) {/*...*/}
 ```
