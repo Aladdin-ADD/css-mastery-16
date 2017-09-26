@@ -136,7 +136,7 @@ css像素不同于物理像素，与物理像素的比例，受到硬件、操�
 @media (min-aspect-ratio: 16/9){}
 ```
 
-## 浏览器支持
+### 浏览器支持
 
 + IE8 respond.js
 + conditional comments.
@@ -145,3 +145,7 @@ css像素不同于物理像素，与物理像素的比例，受到硬件、操�
 <link rel="stylesheet" href="oldIE.css" media="all">
 <![endif]-->
 ```
+
+## 响应式设计的CSS结构
+
+### “移动优先”（mobile first）
