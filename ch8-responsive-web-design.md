@@ -77,4 +77,11 @@ css像素不同于物理像素，与物理像素的比例，受到硬件、操�
 
 + 默认视口、理想视口（Default and Ideal Viewports）
 + 可见视口、布局视口（Visual and Layout Viewports）
- ￼￼￼￼￼￼
+ ￼￼￼￼￼
+### 设备自适应 css@viewport
+
+```css
+@viewport{
+  width: auto;
+}
+```
