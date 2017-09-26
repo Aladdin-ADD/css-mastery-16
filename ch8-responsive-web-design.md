@@ -93,7 +93,7 @@ css像素不同于物理像素，与物理像素的比例，受到硬件、操�
 媒体类型：
 
 + HTML4.0.1 & CSS2.1
-+ `screen | print | tv ...`
++ `screen | print | tv | all ...`
 
 ```html
 <link rel="stylesheet" href="main.css" media="screen, print">
