@@ -107,3 +107,22 @@ css像素不同于物理像素，与物理像素的比例，受到硬件、操�
   }
 }
 ```
+媒体查询：
+```html
+<link rel="stylesheet" href="main.css" media="screen and (min-width: 600px)">
+```
+```css
+@media screen and (min-width: 600px) {
+  /* rules go here */
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {}
+
+@media (min-width: 30em) {/*...*/}
+/* ...is the same as... */
+@media all and (min-width: 30em) {/*...*/}
+
+@media not screen {
+  /* non-screen styles go here. */
+}
+```
