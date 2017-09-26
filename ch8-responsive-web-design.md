@@ -149,3 +149,23 @@ css像素不同于物理像素，与物理像素的比例，受到硬件、操�
 ## 响应式设计的CSS结构
 
 ### “移动优先”（mobile first）
+
+基本排版（size、color、line-height、heading...） >> 盒子（border、padding、background color、image...） >> 基础组件（Navigation、form、button）
+
+```css
+/* start off with the baseline and small-screen styles. */
+.myThing {
+  font-size: 1em;
+}
+/* ...then adjust inside min-width media queries: */
+@media only screen and (min-width: 23.75em) {
+  .myThing {
+    width: 50%;
+    float: left;
+} }
+/* ...and further adjustments... */
+@media only screen and (min-width: 38.75em) {
+  .myThing {
+    width: 33.333%;
+} }
+```
