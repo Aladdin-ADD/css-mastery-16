@@ -220,4 +220,16 @@ img, object, video, embed {
 
 ```html
 <img src="img/600x300.png" srcset="img/1200x600.png 1.5x" alt="Dummy image">
+
+<img src="img/xsmall.png"
+     srcset="img/xsmall.png 300w,
+             img/small.png 400w,
+             img/medium.png 600w,
+             img/large.png 800w,
+             img/xlarge.png 1200w"
+     sizes="(min-width: 70em) 12.6875em,
+            (min-width: 50em) calc(25vw * 0.95 - 2.75em),
+            (min-width: 35em) calc(95vw / 2 - 4.125em),
+            calc(95vw - 1.375em)"
+     alt="Dummy image" />
 ```
