@@ -194,5 +194,30 @@ flex-wrap: wrap;
 
 ### 灵活、相对容器的组件
 
-## 响应式单元格
+### 响应式单元格
 
+### 使用分辨率查询切换图片
+
+```css
+@media (-webkit-min-device-pixel-ratio: 1.5),
+       (min-resolution: 1.5dppx) {
+  .profile-box {
+    background-image: url(medium-cat.jpg);
+} }
+```
+
+## 响应式嵌入媒体
+
+```css
+img, object, video, embed {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+```
+
+### 响应式图片和srcset特性
+
+```html
+<img src="img/600x300.png" srcset="img/1200x600.png 1.5x" alt="Dummy image">
+```
